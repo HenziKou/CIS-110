@@ -1,0 +1,37 @@
+body {
+	background-image: url(images/scenicimage.jpg);
+	/*fix the image size*/
+	background-size: cover;
+	background-color: #FFFFFF;
+	color: #000000;
+	font-family: Verdana, Arial, sans-serif;
+}
+header {
+	background-color: #CCCCCC;
+	color: #000000;
+	text-align: center;
+	border-radius: 10px;
+	opacity: 0.5;
+}
+h1 {
+	line-height: 200%;
+}
+h2 {
+	text-align: center;
+}
+footer {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	padding: 10px 0px;
+	background-color: #CCCCCC;
+	color: #000000;
+	font-size: 0.60em;
+	font-style: italic;
+	text-align: center;
+	opacity: 0.8;
+}
+.opaqueText {
+	color: rgba(0,0,0,0.4);
+}

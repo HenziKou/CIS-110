@@ -1,0 +1,81 @@
+/*
+Website Colors
+	#ffa5ad (255, 165, 173) Salmon
+	#adffa5 (173, 255, 165) Lime Green
+	#a5b3ff (165, 179, 255) Lavender
+	#ffcfa5 (255, 207, 165) Tangerine
+Background Image Generator
+	Background Color: #ffa5ad;
+	Pattern: Nistri;
+	Blend Mode: Color Burn;
+	Image Width: 103px;
+*/
+body {
+	background-color: #adffa5;
+	background-image: url(images/background.png);
+	background-repeat: repeat-y;
+	margin: 0px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+header {
+	background-color: #ffcfa5;
+	border-radius: 0px 0px 20px 0px;
+}
+header h1 {
+	margin: 0px;
+	text-align: center;
+	line-height: 150%;
+	color: #ffffff;
+}
+main {
+	padding: 0px;
+	margin-top: 10px;
+	margin-left: 104px;
+	color: #ffffff;
+}
+main img {
+	width: 200px;
+}
+main div {
+	border-radius: 0px 20px 20px 0px;
+}
+#mainDiv1 {
+	background-color: #a5b3ff;
+}
+#mainDiv2 {
+	background-color: #ffcfa5;
+}
+#mainDiv3 {
+	background-color: #a5b3ff;
+}
+footer {
+	background-color: #ffcfa5;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	text-align: center;
+	border-radius: 0px 20px 0px 0px;
+	color: #ffffff;
+}
+footer span {
+	padding: 5px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000000;
+}
+#color1 {
+	background-color: #ffa5ad;
+}
+#color2 {
+	background-color: #adffa5;
+}
+#color3 {
+	background-color: #a5b3ff;
+}
+#color4 {
+	background-color: #ffcfa5;
+}
+a:link {
+	color: #ffffff;
+}

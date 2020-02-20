@@ -1,0 +1,133 @@
+/*
+Website colors:
+	#50ebff (80, 235, 255) Blue
+	#ffad50 (255, 173, 80) Orange
+	#ff5650 (255, 86, 80) Red
+*/
+body {
+	background-color: #50ebff;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+header {
+	background-color: #ffffff;
+	text-align: right;
+}
+nav {
+	background-color: #ffffff;
+	text-align: center;
+}
+nav ul {
+	list-style-type: none;
+}
+nav li {
+	display: inline;
+}
+nav a {
+	border-width: 1px;
+	border-style: solid;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-right: 3px;
+	padding-left: 3px;
+	color: #ffad50;
+}
+nav a:hover {
+	color: #ff5650;
+	border-color: #ffad50;
+}
+main {
+	background-color: #50ebff;
+	color: #ffffff;
+	min-height: 300px;
+	border-top-color: #ff5650;
+	border-bottom-color: #ff5650;
+	border-width: 3px;
+	border-style: solid;
+}
+main h1 {
+	font-size: 2em;
+}
+footer {
+	background-color: #ffffff;
+	font-size: 0.70em;
+	text-align: center;
+	line-height: 50%;
+}
+footer a {
+	color: #ffad50;
+}
+footer a:hover {
+	color: #ff5650;
+}
+#wrapper {
+	background-color: #ffffff;
+	width: 95%;
+	min-height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	box-shadow: 10px 10px 5px 0px #ff5650;
+	border-radius: 8px
+}
+a {
+	text-decoration: none;
+}
+.fontImpact {
+	font-family: Impact, Charcoal, sans-serif;
+}
+.roundedImage {
+	margin: 10px;
+	border-radius: 20px;
+}
+.floatLeft {
+	float: left;
+}
+.floatRight {
+	float: right;
+}
+.clearFloat {
+	clear: both;
+}
+.noBullets {
+	list-style: none;
+}
+.overFlow {
+	overflow: auto;
+}
+.italics {
+	font-style: italic;
+}
+.smallCaps {
+	font-variant: small-caps;
+	font-size: 0.60em;
+}
+.textAlignCenter {
+	text-align: center;
+}
+.textAlignLeft {
+	text-align: left;
+}
+.textAlignRight {
+	text-align: right;
+}
+.latestDiscount {
+	background-color: #ff5650;
+	color: #ffffff;
+	font-weight: bold;
+	padding: 5px;
+	margin: 10px;
+	font-variant: small-caps;
+	font-size: 0.80em;
+}
+.hide {
+	display: none;
+}
+.unhideBlock {
+	display: block;
+}
+#productsMain li {
+	display: inline-block;
+}

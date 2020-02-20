@@ -1,0 +1,79 @@
+/*
+Website colors:
+	#50ebff (80, 235, 255) Blue
+	#ffad50 (255, 173, 80) Orange
+	#ff5650 (255, 86, 80) Red
+*/
+body {
+	background-color: #50ebff;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+header {
+	background-color: #ffffff;
+	text-align: right;
+	padding-right: 40px;
+	padding-top: 20px;
+}
+nav {
+	background-color: #ffffff;
+	text-align: center;
+}
+nav ul {
+	list-style-type: none;
+}
+nav li {
+	display: inline;
+}
+nav a {
+	text-decoration: none;
+	border-width: 1px;
+	border-color: #ffad50;
+	border-style: solid;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-right: 3px;
+	padding-left: 3px;
+	color: #ffad50;
+}
+nav a:hover {
+	color: #ff5650;
+}
+main {
+	background-color: #50ebff;
+	color: #ffffff;
+	min-height: 300px;
+	border-top-width: 3px;
+	border-top-color: #ff5650;
+	border-top-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: #ff5650;
+	border-bottom-style: solid;
+}
+footer {
+	background-color: #ffffff;
+	font-size: 0.70em;
+	text-align: center;
+	line-height: 50%;
+}
+footer a {
+	color: #ffad50;
+}
+footer a:hover {
+	color: #ff5650;
+}
+#wrapper {
+	background-color: #ffffff;
+	width: 95%;
+	min-height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	box-shadow: 10px 10px 5px 0px #ff5650;
+	border-radius: 8px
+}
+a {
+	text-decoration: none;
+}

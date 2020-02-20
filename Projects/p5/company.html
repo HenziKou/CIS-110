@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Henzi Kou">
+	<meta name="description" content="CIS 110">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>Los Pollos Hermanos - Home</title>
+	<script>
+		function showCode()
+			{
+			document.getElementById("latestDiscountCode").className = "unhideBlock textAlignLeft";
+			}
+	</script>
+<body>
+<div id="wrapper">
+	<header>
+		<img src="images/Logo.png" alt="Company Logo" style="height: 100; width: 100;">
+	</header>
+	<nav>
+		<ul>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="products.html">Products</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	<main class="overFlow textAlignCenter">
+		<img class="roundedImage floatLeft" src="images/rooster.jpg" alt="Cartoon Rooster" style="height: 150px; width: 200px;">
+		<h1>Welcome to our newly launched website.</h1>
+		<p>
+			In business for over 3000 years, we offer the <span class="fontImpact">best</span> fried chicken anyone has ever tasted.
+		</p>
+		<p>
+			&quot;Best Chicken in Town!&quot; <span class="italics smallCaps">Walter and Jesse</span>
+		</p>
+		<p class="clearFloat"></p>
+		<img class="roundedImage floatRight" src="images/friedchicken.jpg" alt="Fried Chicken on a plate" style="height: 100px; width: 200px;">
+		<p onclick="showCode();" class="textAlignLeft"><span class"latestDiscount">Click for our latest discount code!</span></p>
+		<p class="textAlignLeft hide" id="latestDiscountCode"><span class="latestDiscount">Latest Discount Code #: 1234</span></p>
+	</main>
+	<footer>
+		<p>
+			<a href="home.html">Home</a>&nbsp;|&nbsp;
+			<a href="products.html">Products</a>&nbsp;|&nbsp;
+			<a href="about.html">About</a>&nbsp;|&nbsp;
+			<a href="contact.html">Contact</a>
+		</p>
+		<p>
+			1 (800) 800-1800
+		</p>
+		<p>
+			&copy; 2016 <a href="home.html">Los Pollos Hermanos</a>. All rights reserved.
+		</p>
+	</footer>
+</div>
+</body>
+</html>
